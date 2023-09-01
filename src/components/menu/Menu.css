@@ -8,6 +8,12 @@
     align-items: stretch;
 }
 
+.menu-title-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .menu-title{
     color: #ffffff;
     font-size: 2rem;

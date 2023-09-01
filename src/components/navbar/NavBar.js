@@ -7,7 +7,7 @@ const NavBar = () => {
     return ( 
         <div class = "NavBar">
             {/* <img src="/images/logo2.png" class = "NavBar-logo" alt="" /> */}
-            <h1>The Shore Deli</h1>
+            <h1 class = "NavBar-logo">The Shore Deli</h1>
             <div class = "NavBar-options">
             <ul>
                 <li><a href="/home">Home</a></li>

@@ -1,9 +1,10 @@
 .NavBar{
     display: flex;
     background-color: #424544;
+    max-height: 60px;
 }
 
-h1{
+.NavBar-logo{
     font-size: 1.5rem;
     color:#dab8ac;
     margin-left: 25px;
@@ -59,7 +60,6 @@ h1{
 
 .NavBar-logo{
     flex: 1;
-    padding: 10px;
     height:50px;
     width:50px;
 }

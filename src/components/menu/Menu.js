@@ -1,9 +1,14 @@
 import './Menu.css'
+import Knife from './icons/Knife';
 
 const Menu = () => {
     return ( 
         <div class = "menu-container">
-            <h1 class = "menu-title">OUR MENU</h1>
+            <div class = "menu-title-box">
+                <Knife/>
+                <h1 class = "menu-title">OUR MENU</h1>
+                <Knife/>
+            </div>
             <hr class = "menu-deco"/>
 
             <div class= "menu-toggle">
