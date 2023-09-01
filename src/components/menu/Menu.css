@@ -1,0 +1,28 @@
+.menu-container{
+    width: 100vw;
+    height: 600px;
+    background-color: #dab8ac;
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.menu-title{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.menu-deco{
+    color: #ffffff;
+    width: 30%;
+}
+
+.menu-toggle{
+    display:flex;
+    justify-content: center;
+}
+
+.menu-toggle h3{
+    margin-left: 20px;
+}

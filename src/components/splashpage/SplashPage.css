@@ -1,0 +1,50 @@
+.homepage-container {
+    background-image: url('/public/images/cafe.png');
+    background-size: cover;
+    background-position: 0px -140px;
+    /* background-color: #68647D; */
+    display:flex;
+    width: 100vw; 
+    border-bottom-right-radius: 30%;
+    height: calc(100vh - 130px);
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+
+}
+
+.homepage-title{
+    width: 400px;
+    height: 400px;
+    background-color:#557474;
+    border-radius: 20px;
+}
+
+.homepage-rating{
+    display:flex;
+    justify-content: center;
+}
+
+.homepage-food{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+h1, h2 {
+    color: #E3D0C0;
+    text-align: center;
+}
+
+hr {
+    color: #E3D0C0;
+    width: 50%;
+    margin-top: -10px;
+}
+
+img {
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    margin-left: 100px;
+}
