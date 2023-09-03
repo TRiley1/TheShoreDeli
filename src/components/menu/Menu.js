@@ -5,7 +5,6 @@ import MenuOptions from "./MenuOptions";
 import { drinksMenu, sandwichMenu } from "./TheShoreMenu";
 
 const Menu = () => {
-  
   const [activeCategory, setActiveCategory] = useState("Drinks");
 
   const handleCategoryClick = (category) => {
@@ -24,9 +23,24 @@ const Menu = () => {
         <hr className="menu-deco" />
 
         <div className="menu-toggle">
-          <h3 onClick={() => handleCategoryClick("Breakfast")}>Breakfast</h3>
-          <h3 onClick={() => handleCategoryClick("Lunch")}>Lunch</h3>
-          <h3 onClick={() => handleCategoryClick("Drinks")}>Drinks</h3>
+          <h3
+            onClick={() => handleCategoryClick("Breakfast")}
+            className={activeCategory === "Breakfast" ? "active-category" : ""}
+          >
+            Breakfast
+          </h3>
+          <h3
+            onClick={() => handleCategoryClick("Lunch")}
+            className={activeCategory === "Lunch" ? "active-category" : ""}
+          >
+            Lunch
+          </h3>
+          <h3
+            onClick={() => handleCategoryClick("Drinks")}
+            className={activeCategory === "Drinks" ? "active-category" : ""}
+          >
+            Drinks
+          </h3>
         </div>
 
         <MenuOptions
@@ -40,6 +54,7 @@ const Menu = () => {
 };
 
 export default Menu;
+
 
 
 

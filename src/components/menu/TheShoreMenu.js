@@ -15,7 +15,8 @@ class Item {
   const drink2 = createItem("Drink", "Orange Juice", "£1.00");
   const sandwich1 = createItem("Sandwich", "Big P", "£7.00", "Oak smoked cheddar, Honey roast ham, Coleslaw, Mustard, Pickles & Rocket");
   const sandwich2 = createItem("Sandwich", "Mummas", "£7.50", "Basil, Pesto, Mozzarella, Tomatoes, Prosciutto, Salami & Rocket");
+  const sandwich3 = createItem("Sandwich", "Georgia", "£7.50", "Goat's cheese, Prosciutto, Hazelnuts, Honey & Rocket")
   
   export const drinksMenu = [drink1, drink2];
-  export const sandwichMenu = [sandwich1, sandwich2];
+  export const sandwichMenu = [sandwich1, sandwich2, sandwich3];
   

@@ -8,6 +8,12 @@
     align-items: center;
 }
 
+.active-category {
+    padding: 5px;
+    background-color: #ffffff; 
+    border-radius: 5px;
+  }
+
 .menu-title-box{
     display:flex;
     justify-content: center;
