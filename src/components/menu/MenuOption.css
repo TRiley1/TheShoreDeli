@@ -1,0 +1,23 @@
+.item-card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.item-text{
+    color: #ffffff;
+}
+
+.item-card h2 {
+    margin-left: 30px;
+}
+
+.item-card-container p{
+margin-top: -10px;
+ width: 70%;
+}
+
+.item-card-container{
+    display:flex;
+    flex-direction: column;
+}
